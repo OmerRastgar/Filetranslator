@@ -22,7 +22,7 @@ class Application(ctk.CTk):
 
     def create_widgets(self):
         # Sidebar frame with buttons
-        sidebar_frame = ctk.CTkFrame(self, width=140, corner_radius=0)
+        sidebar_frame = ctk.CTkFrame(self, width=141, corner_radius=0)
         sidebar_frame.grid(row=0, column=0, rowspan=4, sticky="s")
 
        
